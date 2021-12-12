@@ -1,0 +1,16 @@
+.button {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  position: absolute;
+  border: none;
+  right: 60px;
+  bottom: 60px;
+  background-color: #5ece7b;
+
+  transition: all 250ms linear;
+}
+
+.button:hover {
+  transform: scale(1.05);
+}

@@ -1,0 +1,139 @@
+.span {
+  height: 20px;
+  width: 12px;
+  /* margin-top: 3px; */
+  /* background-image: url("./s.svg"); */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-repeat: no-repeat; */
+}
+.spanVectorUp {
+  height: 5px;
+  width: 9px;
+
+  background-image: url("./vectorUp.svg");
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-repeat: no-repeat;
+}
+
+.spanVectorDown {
+  height: 5px;
+  width: 9px;
+
+  background-image: url("./vectorDown.svg");
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-repeat: no-repeat;
+}
+
+.buttonCurrency {
+  align-items: center;
+  display: flex;
+  width: 38px;
+  height: 29px;
+  border: none;
+  background-color: #fff;
+}
+
+.spanCart {
+  height: 18px;
+  width: 20px;
+
+  background-image: url("./cartBlack.svg");
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-repeat: no-repeat;
+}
+
+.buttonCart {
+  align-items: center;
+  display: flex;
+  width: 38px;
+  height: 29px;
+  border: none;
+  margin-left: 22px;
+  position: relative;
+  background-color: #fff;
+}
+
+.container {
+  display: flex;
+}
+
+.list {
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  list-style: none;
+  padding: 20px;
+  width: 74px;
+  box-shadow: 0px 4px 35px rgba(168, 172, 176, 0.19);
+}
+
+.currencyListContainer {
+  position: absolute;
+  right: 67px;
+  top: 65px;
+  width: 184px;
+  height: 350px;
+  overflow: hidden;
+}
+
+.opened {
+  opacity: 1;
+  transition: all 250ms ease-in-out;
+  transform: translateY(0);
+}
+
+.closed {
+  opacity: 0;
+  transition: all 250ms ease-in-out;
+  transform: translateY(-100%);
+}
+
+.text {
+  font-family: Raleway;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #1d1f22;
+}
+
+.button {
+  border: none;
+  background-color: white;
+  font-family: Raleway;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #1d1f22;
+}
+
+.spanCartQuantity {
+  font-family: Roboto;
+  color: #fff;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 1.6;
+
+  text-transform: uppercase;
+}
+
+.containerQuantity {
+  position: absolute;
+  top: 20px;
+  right: 95px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #000;
+}

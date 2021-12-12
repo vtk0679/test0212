@@ -1,0 +1,28 @@
+.navigation {
+  font-family: Raleway;
+  font-size: 16px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: #1d1f22;
+  text-decoration: none;
+  margin-left: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+
+  padding-bottom: 32px;
+}
+
+.navigationActive {
+  font-family: Raleway;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: #5ece7b;
+  border-bottom: solid 3px #5ece7b;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+}

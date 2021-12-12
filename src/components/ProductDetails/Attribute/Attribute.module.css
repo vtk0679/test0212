@@ -1,0 +1,54 @@
+.sizeContainer {
+  width: 59px;
+  height: 40px;
+  border: solid 2px black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerActive {
+  width: 60px;
+  height: 40px;
+
+  color: #fff;
+  background-color: black;
+}
+
+.swatchContainer {
+  width: 63px;
+  height: 45px;
+}
+
+.swatchContainerActive {
+  width: 59px;
+  height: 41px;
+
+  border: solid 2px black;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.item:not(:last-child) {
+  margin-right: 12px;
+}
+
+.text {
+  font-size: 16px;
+}
+
+.title {
+  font-family: Roboto Condensed;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  margin-top: 0;
+}

@@ -1,0 +1,56 @@
+.img {
+  display: block;
+  height: 100%;
+}
+
+.imgThumb {
+  overflow: hidden;
+  width: 330px;
+  height: 354px;
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.title {
+  padding-left: 16px;
+  padding-right: 16px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1, 6;
+  margin: 0;
+  margin-top: 24px;
+}
+
+.text {
+  font-family: Releway;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 0;
+
+  padding-bottom: 16px;
+}
+.textMain {
+  margin: 0;
+  padding-left: 16px;
+}
+
+.svg {
+  /* background-image: url("./cart.svg"); */
+  width: 24px;
+  height: 24px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+  opacity: 0;
+}
+
+.box:hover .button {
+  opacity: 1;
+}
